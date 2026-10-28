@@ -1,0 +1,10 @@
+node_modules
+dist
+storage/uploads/*
+storage/clips/*
+storage/temp/*
+!storage/samples
+.git
+*.log
+.DS_Store
+Thumbs.db

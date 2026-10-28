@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: blackclovercut-ai
+    runtime: docker
+    plan: free
+    region: oregon
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: NODE_ENV
+        value: production
+    healthCheckPath: /api/health
+    autoDeploy: true
